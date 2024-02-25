@@ -1,2 +1,15 @@
 # QuizReview
-It is a simple web application where programmer will practice  the interview question. Programmer will practice the question according to their interest. For example, if they want to practice .Net question, they will be able to practice particular question by choosing a category. The Questions will be divided in three part: Easy, Medium and Hard. 
+It is a simple web application where the programmer will practice  the interview question. Users will be able to review, answer and receive feedback on questions from various topics and categories.
+
+# Features 
+Simple User Registration and Login
+Allow users to view all the available questions and the collections of question
+Allow registered users to answer a question with text.
+
+# Requirements
+
+# Technical Specifications:
+Backend: .NET, WEB API
+DATABASE: PostgresSQL
+Frontend: Angular
+
