@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizReviewApplication.Domain.Enitities
+namespace QuizReviewApplication.Domain.Entities
 {
     // user can have different level 
     // some may be entry level , mid level and professional

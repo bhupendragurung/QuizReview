@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizReviewApplication.Domain.Enitities
+namespace QuizReviewApplication.Domain.Entities
 {
     public class Question
     {
