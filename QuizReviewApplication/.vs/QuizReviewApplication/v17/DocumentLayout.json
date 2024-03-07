@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\data\\quizreviewdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\data\\quizreviewdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\enitities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\enitities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "QuizReviewDbContext.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T23:34:49.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Question.cs",
               "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\Question.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SkillLevel.cs",
               "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
               "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
@@ -60,26 +77,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "QuestionLevel.cs",
               "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
               "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
               "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
               "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T21:39:43.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Category.cs",
               "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\Category.cs",
               "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Category.cs",
               "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-06T21:39:10.012Z",
               "EditorCaption": ""
