@@ -1,15 +1,3 @@
-# QuizReview
-It is a simple web application where the programmer will practice  the interview question. Users will be able to review, answer and receive feedback on questions from various topics and categories.
+Feature2
 
-# Features 
-Simple User Registration and Login
-Allow users to view all the available questions and the collections of question
-Allow registered users to answer a question with text.
-
-# Requirements
-
-# Technical Specifications:
-Backend: .NET, WEB API
-DATABASE: PostgresSQL
-Frontend: Angular
-
+In this feature, we are fetching question list from the postgres database. We are using the CQRS pattern using Mediatr Pattern.
