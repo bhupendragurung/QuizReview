@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Questions\Queries\GetQuestionById\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuizReviewApplication.Domain\QuizReviewApplication.Domain.csproj" />
   </ItemGroup>
 
 </Project>
