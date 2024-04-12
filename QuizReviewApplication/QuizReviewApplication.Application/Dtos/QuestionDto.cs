@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuizReviewApplication.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace QuizReviewApplication.Application.Dtos
         public Guid Id { get; set; }
         public string Content { get; set; } = string.Empty;
         public int SkillLevel { get; set; }
-        public String Category { get; set; }
+        public string  Category { get; set; } = string.Empty;
         public int QuestionLevel { get; set; }
     }
 }

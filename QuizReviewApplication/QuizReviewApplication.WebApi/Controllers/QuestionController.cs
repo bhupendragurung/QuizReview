@@ -1,8 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using QuizReviewApplication.Application.Dtos;
 using QuizReviewApplication.Application.Questions.Commands.CreateQuestion;
 using QuizReviewApplication.Application.Questions.Queries.GetQuestions;
+using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 
@@ -14,26 +16,38 @@ namespace QuizReviewApplication.WebApi.Controllers
     {
         
         private readonly ISender _sender;
-        private readonly IQuestionRepository _questionRepository;
 
-        public QuestionController(ISender sender,IQuestionRepository questionRepository)
+        public QuestionController(ISender sender)
         {
             _sender = sender;
-            _questionRepository = questionRepository;
         }
         [HttpGet]
-        public async Task<IActionResult> GetQuestions()
+        public async Task<ActionResult<IEnumerable<QuestionDto>>> GetQuestions()
         {
-           //var result= await _questionRepository.GetAllQuestions();
-           // return Ok( result);
+           
             var questions = _sender.Send(new GetQuestionsQuery());
-            return Ok(questions);
+            if (questions != null)
+            {
+                return Ok(questions);
+            }
+            else
+            {
+                return NotFound();
+            }
         }
         [HttpPost]
-        public async Task<IActionResult> Create(CreateQuestionCommand command)
+        public async Task<ActionResult<QuestionDto>> Create(CreateQuestionCommand command)
         {
             var createquestion = _sender.Send(command);
-            return Ok(createquestion);
+            if (createquestion != null)
+            {
+                return Ok(createquestion);
+            }
+            else
+            {
+                return BadRequest();
+            }
+            
         }
 
     }

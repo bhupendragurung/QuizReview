@@ -17,7 +17,13 @@ namespace QuizReviewApplication.Infrastructure.Data
         {
                 
         }
-     
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<QuestionCategory>().HasKey(qc => new { qc.QuestionId, qc.CategoryId });
+        }
+
         public DbSet<Question> Questions { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<QuestionCategory> QuestionCategories { get; set; }
     }
 }

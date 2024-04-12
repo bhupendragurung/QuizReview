@@ -23,7 +23,11 @@ namespace QuizReviewApplication.Application.Questions.Queries.GetQuestions
         public async Task<List<QuestionDto>> Handle(GetQuestionsQuery request, CancellationToken cancellationToken)
         {
             var questions= await _questionRepository.GetAllQuestions();
-            return questions.Select(ques => _mapper.Map<QuestionDto>(ques)).ToList();
+
+            if(questions != null ) {
+                return questions.Select(ques => _mapper.Map<QuestionDto>(ques)).ToList();
+            }
+            return null;
            
         }
     }

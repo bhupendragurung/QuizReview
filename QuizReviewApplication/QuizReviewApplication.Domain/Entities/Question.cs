@@ -12,7 +12,7 @@ namespace QuizReviewApplication.Domain.Entities
         public Guid Id { get; set; }
         public string Text { get; set; }=string.Empty;
         public SkillType SkillLevel { get; set; }
-        public String Category { get; set; }
         public QuestionType QuestionLevel { get; set; }
+        public IList<QuestionCategory> QuestionCategories { get; set; }
     }
 }

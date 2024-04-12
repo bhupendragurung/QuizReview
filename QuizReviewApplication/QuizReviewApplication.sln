@@ -9,7 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizReviewApplication.Appli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizReviewApplication.Infrastructure", "QuizReviewApplication.Infrastructure\QuizReviewApplication.Infrastructure.csproj", "{44E00492-CDA6-4F6E-81F7-A0FF479F558B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizReviewApplication.WebApi", "QuizReviewApplication.WebApi\QuizReviewApplication.WebApi.csproj", "{F32312F4-6FE7-4965-9661-BADE9FA93D79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizReviewApplication.WebApi", "QuizReviewApplication.WebApi\QuizReviewApplication.WebApi.csproj", "{F32312F4-6FE7-4965-9661-BADE9FA93D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8A757867-9529-46E9-AD6A-BDF73D59A296}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuizReviewApplication.Application.UnitTests", "QuizReviewApplication.Application.UnitTests\QuizReviewApplication.Application.UnitTests.csproj", "{FF42DBD8-F793-4887-8306-3367ADE4D948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizReviewApplication.Domain.UnitTests", "QuizReviewApplication.Domain.UnitTests\QuizReviewApplication.Domain.UnitTests.csproj", "{1806F723-181F-46C5-BF6C-00EA78873808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizReviewApplication.Infrastructure.UnitTests", "QuizReviewApplication.Infrastructure.UnitTests\QuizReviewApplication.Infrastructure.UnitTests.csproj", "{FDEF698A-19A5-4E96-977E-CE9024C2F122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizReviewApplication.WebApi.UnitTests", "QuizReviewApplication.WebApi.UnitTests\QuizReviewApplication.WebApi.UnitTests.csproj", "{E2CAE145-7427-4732-BFC8-E79DA40E1CE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +43,31 @@ Global
 		{F32312F4-6FE7-4965-9661-BADE9FA93D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32312F4-6FE7-4965-9661-BADE9FA93D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32312F4-6FE7-4965-9661-BADE9FA93D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF42DBD8-F793-4887-8306-3367ADE4D948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF42DBD8-F793-4887-8306-3367ADE4D948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF42DBD8-F793-4887-8306-3367ADE4D948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF42DBD8-F793-4887-8306-3367ADE4D948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1806F723-181F-46C5-BF6C-00EA78873808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1806F723-181F-46C5-BF6C-00EA78873808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1806F723-181F-46C5-BF6C-00EA78873808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1806F723-181F-46C5-BF6C-00EA78873808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDEF698A-19A5-4E96-977E-CE9024C2F122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDEF698A-19A5-4E96-977E-CE9024C2F122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDEF698A-19A5-4E96-977E-CE9024C2F122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDEF698A-19A5-4E96-977E-CE9024C2F122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CAE145-7427-4732-BFC8-E79DA40E1CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CAE145-7427-4732-BFC8-E79DA40E1CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CAE145-7427-4732-BFC8-E79DA40E1CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CAE145-7427-4732-BFC8-E79DA40E1CE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF42DBD8-F793-4887-8306-3367ADE4D948} = {8A757867-9529-46E9-AD6A-BDF73D59A296}
+		{1806F723-181F-46C5-BF6C-00EA78873808} = {8A757867-9529-46E9-AD6A-BDF73D59A296}
+		{FDEF698A-19A5-4E96-977E-CE9024C2F122} = {8A757867-9529-46E9-AD6A-BDF73D59A296}
+		{E2CAE145-7427-4732-BFC8-E79DA40E1CE5} = {8A757867-9529-46E9-AD6A-BDF73D59A296}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3860A5A7-A23D-4FDB-9F25-1B5ED4CEFFF2}

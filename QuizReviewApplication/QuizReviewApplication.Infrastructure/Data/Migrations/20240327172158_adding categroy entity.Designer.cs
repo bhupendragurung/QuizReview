@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using QuizReviewApplication.Infrastructure.Data;
@@ -11,9 +12,11 @@ using QuizReviewApplication.Infrastructure.Data;
 namespace QuizReviewApplication.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(QuizReviewDbContext))]
-    partial class QuizReviewDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240327172158_adding categroy entity")]
+    partial class addingcategroyentity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

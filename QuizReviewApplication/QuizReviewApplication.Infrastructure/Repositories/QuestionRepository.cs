@@ -29,7 +29,10 @@ namespace QuizReviewApplication.Infrastructure.Repositories
         public async Task<List<Question>> GetAllQuestions()
         {        
               
-            return  _quizReviewDbContext.Questions.ToList();
+            return  _quizReviewDbContext.Questions
+                .Include(qc=>qc.QuestionCategories)
+                .ThenInclude(c=>c.Category)
+                .ToList();
 
         }
     }

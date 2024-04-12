@@ -23,6 +23,8 @@ namespace QuizReviewApplication.Infrastructure
             });
 
             services.AddTransient<IQuestionRepository, QuestionRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IQuestionCategoryRepository, QuestionCategroyRepository>();
             return services;
         }
     }
