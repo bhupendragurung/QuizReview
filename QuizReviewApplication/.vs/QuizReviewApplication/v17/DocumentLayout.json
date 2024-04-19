@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\data\\quizreviewdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\data\\quizreviewdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure.integrationtests\\categories\\categorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|solutionrelative:quizreviewapplication.infrastructure.integrationtests\\categories\\categorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\enitities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\enitities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Application.IntegrationTests.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure.integrationtests\\integrationtestwebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Application.IntegrationTests.csproj|solutionrelative:quizreviewapplication.infrastructure.integrationtests\\integrationtestwebappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\enitities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\enitities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure.integrationtests\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|solutionrelative:quizreviewapplication.infrastructure.integrationtests\\baseintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\enitities\\skilllevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\enitities\\skilllevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure.integrationtests\\questions\\questiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F224FE2-3516-4903-B803-9FDFBFC2BA9F}|QuizReviewApplication.Infrastructure.IntegrationTests\\QuizReviewApplication.Infrastructure.IntegrationTests.csproj|solutionrelative:quizreviewapplication.infrastructure.integrationtests\\questions\\questiontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\enitities\\questionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\enitities\\questionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\categories\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\categories\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\categories\\commands\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\categories\\commands\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\questions\\commands\\createquestion\\createquestionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\questions\\commands\\createquestion\\createquestionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\questions\\commands\\createquestion\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\questions\\commands\\createquestion\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\questions\\queries\\getquestions\\getquestionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\questions\\queries\\getquestions\\getquestionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\questions\\queries\\getquestions\\getquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\questions\\queries\\getquestions\\getquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\questions\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\questions\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\questions\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\questions\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\repositories\\questioncategroyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\repositories\\questioncategroyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\repositories\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\repositories\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,76 +69,212 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 214,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuizReviewDbContext.cs",
-              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
-              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
-              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
-              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Data\\QuizReviewDbContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T23:34:49.023Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Question.cs",
-              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Question.cs",
-              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\Question.cs",
-              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Question.cs",
-              "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\Question.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Title": "IntegrationTestWebAppFactory.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\IntegrationTestWebAppFactory.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure.IntegrationTests\\IntegrationTestWebAppFactory.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\IntegrationTestWebAppFactory.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure.IntegrationTests\\IntegrationTestWebAppFactory.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwBIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:40:33.702Z",
+              "WhenOpened": "2024-04-19T08:40:03.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseIntegrationTest.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\BaseIntegrationTest.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure.IntegrationTests\\BaseIntegrationTest.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\BaseIntegrationTest.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure.IntegrationTests\\BaseIntegrationTest.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T07:52:01.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SkillLevel.cs",
-              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
-              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
-              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
-              "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\SkillLevel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "DocumentIndex": 7,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:40:03.332Z",
+              "WhenOpened": "2024-04-19T08:15:41.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T07:53:09.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetQuestionsQuery.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:26:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetQuestionsHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T20:27:03.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBZwBoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:52:17.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Repositories\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Repositories\\IQuestionRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Repositories\\IQuestionRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Domain\\Repositories\\IQuestionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:58:43.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBZwBkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:25:23.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "QuestionCategroyRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\QuestionCategroyRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Repositories\\QuestionCategroyRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\QuestionCategroyRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Repositories\\QuestionCategroyRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwBsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T20:19:38.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 218,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryTests.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\Categories\\CategoryTests.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure.IntegrationTests\\Categories\\CategoryTests.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\Categories\\CategoryTests.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure.IntegrationTests\\Categories\\CategoryTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T08:19:53.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T08:10:57.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "QuestionLevel.cs",
-              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
-              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
-              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
-              "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\QuestionLevel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:39:43.968Z",
+              "WhenOpened": "2024-04-19T08:08:18.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Category.cs",
-              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Enitities\\Category.cs",
-              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Enitities\\Category.cs",
-              "RelativeToolTip": "QuizReviewApplication.Domain\\Enitities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "QuestionTests.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\Questions\\QuestionTests.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure.IntegrationTests\\Questions\\QuestionTests.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure.IntegrationTests\\Questions\\QuestionTests.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure.IntegrationTests\\Questions\\QuestionTests.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T21:39:10.012Z",
+              "WhenOpened": "2024-04-18T20:02:10.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateQuestionHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwA4AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:50:22.945Z",
               "EditorCaption": ""
             }
           ]
