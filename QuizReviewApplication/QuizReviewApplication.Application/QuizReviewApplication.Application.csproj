@@ -8,10 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Categories\Queries\" />
     <Folder Include="Questions\Queries\GetQuestionById\" />
   </ItemGroup>
 

@@ -19,6 +19,7 @@ namespace QuizReviewApplication.Infrastructure.Repositories
             _quizReviewDbContext = quizReviewDbContext;
         }
 
+        // follow single responsibility principle
         public async Task<Guid> CreateCategoryAsync(string categoryName, string categoryDescription)
         {
             var existingCategory = await GetCategoryByName(categoryName);

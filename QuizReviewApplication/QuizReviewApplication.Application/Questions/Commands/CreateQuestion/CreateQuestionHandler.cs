@@ -28,22 +28,39 @@ namespace QuizReviewApplication.Application.Questions.Commands.CreateQuestion
         }
         public async Task<QuestionDto> Handle(CreateQuestionCommand request, CancellationToken cancellationToken)
         {
-          // category data will be added and return id
-          // if category already exists then it will return only id
-
-            var categoryId = await _categoryRepository.CreateCategoryAsync(request.CategoryName, request.CategoryValue);
-
-            // question data will be added and return question
+            Guid questionId= Guid.NewGuid();
             var question = new Question();
-            question.Text = request.Content;
-            question.SkillLevel = (SkillType)request.SkillLevel;
-            question.QuestionLevel = (QuestionType)request.QuestionLevel;
+            //check Question is exist or not 
+            if ( await _questionRepository.CheckQuestionExists(request.Content))
+            {
+                var quest=await _questionRepository.GetQuestionByContentAsync(request.Content);
+                if(quest != null)
+                {
+                    question = quest;
+                    questionId = quest.Id;
+                }
+               
+            }
+            else
+            {
+                
+                question.Text = request.Content;
+                question.SkillLevel = (SkillType)request.SkillLevel;
+                question.QuestionLevel = (QuestionType)request.QuestionLevel;
 
-            var result= await _questionRepository.CreateAsync(question);
-
-            // questioncategory data will be added and return nothing
-            _questionCategoryRepository.AddQuestionCategory(question.Id, categoryId);
-            return _mapper.Map<QuestionDto>(result);
+                var result = await _questionRepository.CreateAsync(question);
+                if(result != null)
+                {
+                    questionId = result.Id;
+                    question = result;
+                }
+            }
+            if (!await _questionCategoryRepository.CheckQuestionCategoryExists(questionId, request.CategoryId))
+            {
+              await  _questionCategoryRepository.AddQuestionCategory(questionId, request.CategoryId);
+            }
+           
+            return _mapper.Map<QuestionDto>(question);
             
         }
     }

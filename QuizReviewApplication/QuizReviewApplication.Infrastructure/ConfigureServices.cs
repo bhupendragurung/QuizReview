@@ -20,7 +20,7 @@ namespace QuizReviewApplication.Infrastructure
             services.AddDbContext<QuizReviewDbContext>(options =>
             {
                 options.UseNpgsql(configuration.GetConnectionString("PostgresDatabase"));
-            });
+            },ServiceLifetime.Scoped);
 
             services.AddTransient<IQuestionRepository, QuestionRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();

@@ -8,46 +8,26 @@ using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 
-namespace QuizReviewApplication.WebApi.Controllers
+namespace QuizReviewApplication.WebApi.Controllers.Questions
 {
     [Route("api/[controller]")]
     [ApiController]
     public class QuestionController : ControllerBase
     {
-        
+
         private readonly ISender _sender;
 
         public QuestionController(ISender sender)
         {
             _sender = sender;
         }
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<QuestionDto>>> GetQuestions()
-        {
-           
-            var questions = _sender.Send(new GetQuestionsQuery());
-            if (questions != null)
-            {
-                return Ok(questions);
-            }
-            else
-            {
-                return NotFound();
-            }
-        }
+  
         [HttpPost]
         public async Task<ActionResult<QuestionDto>> Create(CreateQuestionCommand command)
         {
-            var createquestion = _sender.Send(command);
-            if (createquestion != null)
-            {
-                return Ok(createquestion);
-            }
-            else
-            {
-                return BadRequest();
-            }
-            
+            var createQuestion = await _sender.Send(command);
+            return Ok(createQuestion);
+           
         }
 
     }

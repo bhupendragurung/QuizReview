@@ -19,21 +19,33 @@ namespace QuizReviewApplication.Infrastructure.Repositories
             _quizReviewDbContext = quizReviewDbContext;
         }
 
+        public async Task<bool> CheckQuestionExists(string content)
+        {
+           return await _quizReviewDbContext.Questions.AnyAsync(q=>q.Text.ToLower() == content.ToLower());
+        }
         public async Task<Question> CreateAsync(Question question)
         {
-             _quizReviewDbContext.Questions.Add(question);
-             _quizReviewDbContext.SaveChanges();
+            await _quizReviewDbContext.Questions.AddAsync(question);
+            await _quizReviewDbContext.SaveChangesAsync();
             return question;
         }
-
-        public async Task<List<Question>> GetAllQuestions()
+        
+        public async Task<List<Question>> GetAllQuestionsAsync()
         {        
               
-            return  _quizReviewDbContext.Questions
+            var questions= await  _quizReviewDbContext.Questions
                 .Include(qc=>qc.QuestionCategories)
                 .ThenInclude(c=>c.Category)
-                .ToList();
+                .ToListAsync();
+            return questions;
+        }
 
+        public async Task<Question> GetQuestionByContentAsync(string content)
+        {          
+                var question= await _quizReviewDbContext.Questions
+                   .Include(qc => qc.QuestionCategories)
+                   .ThenInclude(c => c.Category).FirstOrDefaultAsync(q => q.Text.ToLower() == content.ToLower());
+                return question;
         }
     }
 }

@@ -12,6 +12,7 @@ using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Application.Dtos;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
+using QuizReviewApplication.WebApi.Controllers.Questions;
 
 namespace QuizReviewApplication.WebApi.UnitTests.Controllers
 {
@@ -42,7 +43,7 @@ namespace QuizReviewApplication.WebApi.UnitTests.Controllers
                 }
             };
             //Arrange
-            var controller = new QuestionController(_senderMock.Object);
+            var controller = new QuestionsController(_senderMock.Object);
              _senderMock.Setup(q => q.Send(It.IsAny<GetQuestionsQuery>(),It.IsAny<CancellationToken>())).ReturnsAsync(questions);
          
             //Act
@@ -61,7 +62,7 @@ namespace QuizReviewApplication.WebApi.UnitTests.Controllers
 
             //Arrange
             List<QuestionDto> questions = null;
-            var controller = new QuestionController(_senderMock.Object); 
+            var controller = new QuestionsController(_senderMock.Object); 
             _senderMock.Setup(q => q.Send(It.IsAny<GetQuestionsQuery>(), It.IsAny<CancellationToken>())).ReturnsAsync(questions);
 
             //Act

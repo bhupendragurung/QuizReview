@@ -29,8 +29,9 @@ namespace QuizReviewApplication.Application.UnitTests.Questions.Queries
             // Arrange
             List<Question> questions = new List<Question>()
             {
+
                 new Question
-                { Id=Guid.NewGuid(),
+                {   Id=Guid.NewGuid(),
                     QuestionLevel=Domain.Enum.QuestionType.Medium,
                     SkillLevel=Domain.Enum.SkillType.MidLevel,
                     Text="First"
@@ -43,7 +44,7 @@ namespace QuizReviewApplication.Application.UnitTests.Questions.Queries
                 }
             };
             var query= new GetQuestionsQuery();
-            _questionRepositoryMock.Setup(q => q.GetAllQuestions()).ReturnsAsync(questions);
+          //  _questionRepositoryMock.Setup(q => q.GetAllQuestionsAsync()).ReturnsAsync(questions);
             var handler=new GetQuestionsHandler(_questionRepositoryMock.Object,_mapperMock.Object);
 
             //Act 
@@ -52,6 +53,7 @@ namespace QuizReviewApplication.Application.UnitTests.Questions.Queries
             //Assert
             result.Should().NotBeEmpty().And.NotBeNull();
             result.Should().HaveCount(questions.Count);
+            // check data also equal 
         }
 
         [Fact]
@@ -63,7 +65,7 @@ namespace QuizReviewApplication.Application.UnitTests.Questions.Queries
               
             };
             var query = new GetQuestionsQuery();
-            _questionRepositoryMock.Setup(q => q.GetAllQuestions()).ReturnsAsync(questions);
+            //_questionRepositoryMock.Setup(q => q.GetAllQuestionsAsync()).ReturnsAsync(questions);
             var handler = new GetQuestionsHandler(_questionRepositoryMock.Object, _mapperMock.Object);
 
             //Act 

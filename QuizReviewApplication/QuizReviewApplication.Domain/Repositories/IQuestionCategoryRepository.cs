@@ -8,6 +8,7 @@ namespace QuizReviewApplication.Domain.Repositories
 {
     public interface IQuestionCategoryRepository
     {
-        void AddQuestionCategory(Guid questionId, Guid categroyId);
+        Task AddQuestionCategory(Guid questionId, Guid categroyId);
+        Task<bool> CheckQuestionCategoryExists(Guid questionId, Guid categroyId);
     }
 }

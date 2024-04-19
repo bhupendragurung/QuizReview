@@ -9,7 +9,9 @@ using QuizReviewApplication.Application.Dtos;
 
 namespace QuizReviewApplication.Application.Questions.Queries.GetQuestions
 {
-    public record GetQuestionsQuery : IRequest<List<QuestionDto>>;
+    public class GetQuestionsQuery : IRequest<IEnumerable<QuestionDto>>
+    {
+    }
     
 
     

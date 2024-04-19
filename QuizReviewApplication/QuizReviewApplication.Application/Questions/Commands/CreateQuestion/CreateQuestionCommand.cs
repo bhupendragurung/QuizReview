@@ -13,8 +13,7 @@ namespace QuizReviewApplication.Application.Questions.Commands.CreateQuestion
     {
         public string Content { get; set; } = string.Empty;
         public int SkillLevel { get; set; }
-        public string CategoryName { get; set; } = string.Empty;
-        public string CategoryValue { get; set; } = string.Empty;
+        public Guid CategoryId { get; set; } 
         public int QuestionLevel { get; set; }
     }
 }

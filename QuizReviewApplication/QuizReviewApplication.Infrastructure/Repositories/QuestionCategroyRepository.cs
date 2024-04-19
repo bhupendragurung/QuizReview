@@ -1,4 +1,5 @@
-﻿using QuizReviewApplication.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 using System;
@@ -16,10 +17,16 @@ namespace QuizReviewApplication.Infrastructure.Repositories
         {
             _quizReviewDbContext = quizReviewDbContext;
         }
-        public void AddQuestionCategory(Guid questionId, Guid categroyId)
+        public async Task<bool> CheckQuestionCategoryExists(Guid questionId, Guid categroyId)
         {
-            _quizReviewDbContext.QuestionCategories.Add(new QuestionCategory { QuestionId=questionId,CategoryId=categroyId});
-            _quizReviewDbContext.SaveChanges();
+            return await _quizReviewDbContext.QuestionCategories.AnyAsync(c => c.QuestionId == questionId && c.CategoryId == categroyId);
+        }
+        public async Task AddQuestionCategory(Guid questionId, Guid categroyId)
+        {
+                await _quizReviewDbContext.QuestionCategories.AddAsync(new QuestionCategory { QuestionId = questionId, CategoryId = categroyId });
+               await _quizReviewDbContext.SaveChangesAsync();
+            
+           
         }
     }
 }

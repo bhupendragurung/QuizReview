@@ -9,7 +9,9 @@ namespace QuizReviewApplication.Domain.Repositories
 {
     public interface IQuestionRepository
     {
-        Task<List<Question>> GetAllQuestions();
+        Task<List<Question>> GetAllQuestionsAsync();
+        Task<bool> CheckQuestionExists(string content);
+        Task<Question> GetQuestionByContentAsync(string content);
         Task<Question> CreateAsync(Question question);
     }
 }
