@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuizReviewApplication.Application.Repositories;
 using QuizReviewApplication.Domain.Entities;
-using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 using System;
 using System.Collections.Generic;

@@ -1,11 +1,10 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuizReviewApplication.Application.Dtos;
-using QuizReviewApplication.Application.Questions.Commands.CreateQuestion;
-using QuizReviewApplication.Application.Questions.Queries.GetQuestions;
+using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestions;
 using QuizReviewApplication.Domain.Entities;
-using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 
 namespace QuizReviewApplication.WebApi.Controllers.Questions
@@ -22,10 +21,10 @@ namespace QuizReviewApplication.WebApi.Controllers.Questions
             _sender = sender;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<QuestionDto>>> GetQuestions()
+        [Authorize]
+        public async Task<ActionResult<GetQuestionsResponse>> GetQuestions()
         {
-            var questions = await _sender.Send(new GetQuestionsQuery());
-            return Ok(questions);
+            return await _sender.Send(new GetQuestionsQuery());
           
         }
      

@@ -2,10 +2,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuizReviewApplication.Application.Dtos;
-using QuizReviewApplication.Application.Questions.Commands.CreateQuestion;
-using QuizReviewApplication.Application.Questions.Queries.GetQuestions;
+using QuizReviewApplication.Application.Features.Questions.Commands.CreateQuestion;
+using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestionById;
 using QuizReviewApplication.Domain.Entities;
-using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 
 namespace QuizReviewApplication.WebApi.Controllers.Questions
@@ -23,12 +22,16 @@ namespace QuizReviewApplication.WebApi.Controllers.Questions
         }
   
         [HttpPost]
-        public async Task<ActionResult<QuestionDto>> Create(CreateQuestionCommand command)
+        public async Task<ActionResult<CreateQuestionResponse>> Create(CreateQuestionCommand command)
         {
-            var createQuestion = await _sender.Send(command);
-            return Ok(createQuestion);
-           
+          return await _sender.Send(command);
         }
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<GetQuestionByIdResponse>> GetQuestionById(Guid id)
+        {
+            return await _sender.Send(new GetQuestionByIdQuery() { QuestionId=id});
+
+        }
     }
 }

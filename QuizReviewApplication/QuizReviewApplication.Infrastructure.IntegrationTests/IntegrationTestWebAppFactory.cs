@@ -15,6 +15,7 @@ namespace QuizReviewApplication.Application.IntegrationTests
 {
     public class IntegrationTestWebAppFactory:WebApplicationFactory<Program>,IAsyncLifetime
     {
+        //
         private readonly PostgreSqlContainer _dbContainer= new PostgreSqlBuilder().
             WithImage("postgres:latest")
             .WithDatabase("postgrestest")
@@ -44,6 +45,8 @@ namespace QuizReviewApplication.Application.IntegrationTests
                 {
                     options.UseNpgsql(_dbContainer.GetConnectionString());
                 });
+
+                // ensure database is created
 
             });
         }

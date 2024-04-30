@@ -7,13 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizReviewApplication.Application.Questions.Commands.CreateQuestion
+namespace QuizReviewApplication.Application.Features.Questions.Commands.CreateQuestion
 {
-    public class CreateQuestionCommand:IRequest<QuestionDto>
+    public class CreateQuestionCommand : IRequest<CreateQuestionResponse>
     {
         public string Content { get; set; } = string.Empty;
         public int SkillLevel { get; set; }
-        public Guid CategoryId { get; set; } 
+        public Guid CategoryId { get; set; }
         public int QuestionLevel { get; set; }
     }
 }

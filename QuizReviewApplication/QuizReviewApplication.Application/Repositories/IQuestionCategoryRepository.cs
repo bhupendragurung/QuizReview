@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizReviewApplication.Domain.Repositories
+namespace QuizReviewApplication.Application.Repositories
 {
     public interface IQuestionCategoryRepository
     {

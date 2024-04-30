@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using QuizReviewApplication.Application.Repositories;
 using QuizReviewApplication.Domain.Entities;
-using QuizReviewApplication.Domain.Repositories;
 using QuizReviewApplication.Infrastructure.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -46,6 +47,14 @@ namespace QuizReviewApplication.Infrastructure.Repositories
                    .Include(qc => qc.QuestionCategories)
                    .ThenInclude(c => c.Category).FirstOrDefaultAsync(q => q.Text.ToLower() == content.ToLower());
                 return question;
+        }
+
+        public async Task<Question> GetQuestionByIdAsync(Guid Id)
+        {
+            return await _quizReviewDbContext.Questions
+                  .Include(qc => qc.QuestionCategories)
+                  .ThenInclude(c => c.Category).FirstOrDefaultAsync(q => q.Id == Id);
+        
         }
     }
 }
