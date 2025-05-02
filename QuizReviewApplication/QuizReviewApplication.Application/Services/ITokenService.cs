@@ -9,6 +9,8 @@ namespace QuizReviewApplication.Application.Services
 {
     public interface ITokenService
     {
-        Task<string> CreateToken();
+        Task<string> CreateToken(ApplicationUser user);
+        Task<RefreshToken> GenerateRefreshToken(string ipAddress);
+        Task<RefreshToken> RotateRefreshToken(ApplicationUser user, string currentRefreshToken, string ipAddress);
     }
 }

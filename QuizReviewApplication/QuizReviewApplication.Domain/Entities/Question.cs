@@ -13,6 +13,7 @@ namespace QuizReviewApplication.Domain.Entities
         public Guid Id { get; set; }
         public string Text { get; set; }=string.Empty;
         public SkillType SkillLevel { get; set; }
+        // Difficulty level change the property name
         public QuestionType QuestionLevel { get; set; }
         public IList<QuestionCategory> QuestionCategories { get; set; }
     }

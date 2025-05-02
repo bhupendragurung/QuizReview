@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using QuizReviewApplication.Application.Dtos;
+using QuizReviewApplication.Application.Helper;
 using QuizReviewApplication.Application.Repositories;
 using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Domain.Enum;
@@ -12,87 +13,65 @@ using System.Threading.Tasks;
 
 namespace QuizReviewApplication.Application.Features.Questions.Commands.CreateQuestion
 {
-    public class CreateQuestionHandler : IRequestHandler<CreateQuestionCommand, CreateQuestionResponse>
+    public class CreateQuestionHandler : IRequestHandler<CreateQuestionCommand, ApiResponse<Guid>>
     {
         private readonly IQuestionRepository _questionRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly IQuestionCategoryRepository _questionCategoryRepository;
-        private readonly IMapper _mapper;
+       
 
-        public CreateQuestionHandler(IQuestionRepository questionRepository, ICategoryRepository categoryRepository, IQuestionCategoryRepository questionCategoryRepository, IMapper mapper)
+        public CreateQuestionHandler(IQuestionRepository questionRepository, ICategoryRepository categoryRepository, IQuestionCategoryRepository questionCategoryRepository)
         {
             _questionRepository = questionRepository;
             _categoryRepository = categoryRepository;
             _questionCategoryRepository = questionCategoryRepository;
-            _mapper = mapper;
+       
         }
 
-        public async Task<CreateQuestionResponse> Handle(CreateQuestionCommand request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<Guid>> Handle(CreateQuestionCommand request, CancellationToken cancellationToken)
         {
-            var questionResponse= new CreateQuestionResponse();
-            var validator= new CreateQuestionValidator();
             try
             {
-                Guid questionId = Guid.NewGuid();
-               
-                var validationResult = await validator.ValidateAsync(request, cancellationToken);
-                if (validationResult.IsValid)
+                // Check if question already exists
+                var existingQuestion = await _questionRepository.GetQuestionByContentAsync(request.Content);
+                Guid questionId;
+
+                if (existingQuestion != null)
                 {
-                    questionResponse.Success = true;
-                    //check Question is exist or not 
-                    if (await _questionRepository.CheckQuestionExists(request.Content))
-                    {
-                        var questionBySearchNameResult = await _questionRepository.GetQuestionByContentAsync(request.Content);
-                        if (questionBySearchNameResult != null)
-                        {
-                            questionId = questionBySearchNameResult.Id;
-                            questionResponse.QuestionId= questionId;
-                        }
-
-                    }
-                    //if not exist enter to the database
-                    else
-                    {
-                        var question = new Question();
-                        question.Text = request.Content;
-                        question.SkillLevel = (SkillType)request.SkillLevel;
-                        question.QuestionLevel = (QuestionType)request.QuestionLevel;
-
-                        var result = await _questionRepository.CreateAsync(question);
-                        if (result != null)
-                        {
-                            questionId = result.Id;
-                            questionResponse.QuestionId = questionId;
-                        }
-                    }
-                    if (!await _questionCategoryRepository.CheckQuestionCategoryExists(questionId, request.CategoryId))
-                    {
-                        await _questionCategoryRepository.AddQuestionCategory(questionId, request.CategoryId);
-                    }
-
-
+                    questionId = existingQuestion.Id;
                 }
                 else
                 {
-                    questionResponse.Success = false;
-                    if (validationResult.Errors.Count > 0)
+                    var question = new Question
                     {
-                        questionResponse.ValidationErrors = new List<string>();
-                        foreach (var error in validationResult.Errors.Select(e => e.ErrorMessage))
-                        {
-                            questionResponse.ValidationErrors.Add(error);
-                        }
+                        Id = Guid.NewGuid(),
+                        Text = request.Content,
+                        SkillLevel = (SkillType)request.SkillLevel,
+                        QuestionLevel = (QuestionType)request.QuestionLevel
+                    };
+
+                    var createdQuestion = await _questionRepository.CreateAsync(question);
+                    if (createdQuestion == null)
+                    {
+                        return ApiResponse<Guid>.FailureResponse("Failed to create question.");
                     }
+
+                    questionId = createdQuestion.Id;
                 }
+
+                // Ensure category is linked
+                var categoryLinked = await _questionCategoryRepository.CheckQuestionCategoryExists(questionId, request.CategoryId);
+                if (!categoryLinked)
+                {
+                    await _questionCategoryRepository.AddQuestionCategory(questionId, request.CategoryId);
+                }
+
+                return ApiResponse<Guid>.SuccessResponse("Question created successfully.", questionId);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                questionResponse.Success = false;
-                questionResponse.Message = "Server Error";
+                return ApiResponse<Guid>.FailureResponse("An error occurred while creating the question.");
             }
-
-            return questionResponse;
 
         }
     }

@@ -9,7 +9,7 @@ namespace QuizReviewApplication.Domain.Enum
     public enum SkillType
     {
         EntryLevel = 1,
-        MidLevel = 2,
-        Experienced = 3
+        Intermediate = 2,
+        Advanced = 3
     }
 }

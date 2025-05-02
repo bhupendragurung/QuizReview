@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Asp.Versioning;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestions;
@@ -6,8 +7,10 @@ using QuizReviewApplication.Application.Features.Users.Queries;
 
 namespace QuizReviewApplication.WebApi.Controllers
 {
-    [Route("api/[controller]")]
+  
     [ApiController]
+    [Route("api/v{version:apiVersion}/Users")]
+    [ApiVersion("1.0")]
     public class UsersController : ControllerBase
     {
         private readonly ISender _sender;

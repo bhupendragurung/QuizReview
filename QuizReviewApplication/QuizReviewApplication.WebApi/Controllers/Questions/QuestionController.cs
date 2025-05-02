@@ -1,15 +1,20 @@
-﻿using MediatR;
+﻿using Asp.Versioning;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using QuizReviewApplication.Application.Dtos;
 using QuizReviewApplication.Application.Features.Questions.Commands.CreateQuestion;
 using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestionById;
+using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestions;
+using QuizReviewApplication.Application.Helper;
 using QuizReviewApplication.Domain.Entities;
 using QuizReviewApplication.Infrastructure.Data;
 
 namespace QuizReviewApplication.WebApi.Controllers.Questions
 {
-    [Route("api/[controller]")]
+ 
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
     [ApiController]
     public class QuestionController : ControllerBase
     {
@@ -22,15 +27,17 @@ namespace QuizReviewApplication.WebApi.Controllers.Questions
         }
   
         [HttpPost]
-        public async Task<ActionResult<CreateQuestionResponse>> Create(CreateQuestionCommand command)
+        public async Task<ActionResult<ApiResponse<Guid>>> Create(CreateQuestionCommand command)
         {
-          return await _sender.Send(command);
+          var result= await _sender.Send(command);
+            return result.Success ? Ok(result) : BadRequest(result);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<GetQuestionByIdResponse>> GetQuestionById(Guid id)
+        public async Task<ActionResult<ApiResponse<QuestionDto>>> GetQuestionById(Guid id)
         {
-            return await _sender.Send(new GetQuestionByIdQuery() { QuestionId=id});
+            var result = await _sender.Send(new GetQuestionByIdQuery() { QuestionId = id });
+            return result.Success ? Ok(result) : NotFound(result);
 
         }
     }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace QuizReviewApplication.Application.Features.Users.Queries
 {
-    public class GetTokenHandler : IRequestHandler<GetTokenQuery, string>
+    public class GetTokenHandler 
     {
         private readonly ITokenService _tokenService;
 
@@ -16,9 +16,6 @@ namespace QuizReviewApplication.Application.Features.Users.Queries
         {
             _tokenService = tokenService;
         }
-        public Task<string> Handle(GetTokenQuery request, CancellationToken cancellationToken)
-        {
-            return _tokenService.CreateToken();
-        }
+       
     }
 }

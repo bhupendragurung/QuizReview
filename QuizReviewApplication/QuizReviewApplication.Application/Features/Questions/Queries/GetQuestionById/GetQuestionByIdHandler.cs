@@ -2,6 +2,7 @@
 using MediatR;
 using QuizReviewApplication.Application.Dtos;
 using QuizReviewApplication.Application.Features.Questions.Queries.GetQuestions;
+using QuizReviewApplication.Application.Helper;
 using QuizReviewApplication.Application.Repositories;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace QuizReviewApplication.Application.Features.Questions.Queries.GetQuestionById
 {
-    public class GetQuestionByIdHandler : IRequestHandler<GetQuestionByIdQuery, GetQuestionByIdResponse>
+    public class GetQuestionByIdHandler : IRequestHandler<GetQuestionByIdQuery, ApiResponse<QuestionDto>>
     {
         private readonly IQuestionRepository _questionRepository;
         private readonly IMapper _mapper;
@@ -21,41 +22,28 @@ namespace QuizReviewApplication.Application.Features.Questions.Queries.GetQuesti
             _questionRepository = questionRepository;
             _mapper = mapper;
         }
-        public async Task<GetQuestionByIdResponse> Handle(GetQuestionByIdQuery request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<QuestionDto>> Handle(GetQuestionByIdQuery request, CancellationToken cancellationToken)
         {
-          var questionResponse= new GetQuestionByIdResponse();
-            var validator= new GetQuestionByIdValidator();
+         
             try
             {
-                var validationResult = await validator.ValidateAsync(request, cancellationToken);
-                if(validationResult.IsValid )
+              
+                    var question = await _questionRepository.GetQuestionByIdAsync(request.QuestionId);
+                if (question == null)
                 {
-                  questionResponse.Success = true;
-                    var result = await _questionRepository.GetQuestionByIdAsync(request.QuestionId);
-                    questionResponse.Question = _mapper.Map<QuestionDto>(result);
-
+                    return ApiResponse<QuestionDto>.FailureResponse("Question not found.");
                 }
-                else {
-                    questionResponse.Success = false;
-                    if (validationResult.Errors.Count > 0)
-                    {
-                        questionResponse.ValidationErrors = new List<string>();
-                        foreach (var error in validationResult.Errors.Select(e => e.ErrorMessage))
-                        {
-                            questionResponse.ValidationErrors.Add(error);
-                        }
-                    }
-                }
+               var questionDto = _mapper.Map<QuestionDto>(question);
+                questionDto.CategoryId = question.QuestionCategories.FirstOrDefault()?.CategoryId ?? Guid.Empty;
+                return ApiResponse<QuestionDto>.SuccessResponse("Question Feteched Successfully", questionDto);
 
             }
             catch (Exception)
             {
 
-                questionResponse.Success = false;
-                questionResponse.Message = "Server Error";
+                return ApiResponse<QuestionDto>.FailureResponse("An error occurred while fetching the question.");
             }
 
-            return questionResponse;
         }
     }
 }

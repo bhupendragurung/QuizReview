@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore.Internal;
 using QuizReviewApplication.Application.Dtos;
+using QuizReviewApplication.Application.Helper;
 using QuizReviewApplication.Application.Repositories;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace QuizReviewApplication.Application.Features.Questions.Queries.GetQuestions
 {
-    public class GetQuestionsHandler : MediatR.IRequestHandler<GetQuestionsQuery, GetQuestionsResponse>
+    public class GetQuestionsHandler : MediatR.IRequestHandler<GetQuestionsQuery,ApiResponse< PagedList<QuestionDto>>>
     {
         private readonly IQuestionRepository _questionRepository;
         private readonly IMapper _mapper;
@@ -19,28 +21,20 @@ namespace QuizReviewApplication.Application.Features.Questions.Queries.GetQuesti
             _questionRepository = questionRepository;
             _mapper = mapper;
         }
-        public async Task<GetQuestionsResponse> Handle(GetQuestionsQuery request, CancellationToken cancellationToken)
+        public async Task<ApiResponse<PagedList<QuestionDto>>> Handle(GetQuestionsQuery request, CancellationToken cancellationToken)
         {
-            var getQuestionnResponse = new GetQuestionsResponse();
             try
             {
-                var questions = await _questionRepository.GetAllQuestionsAsync();
+                var pagedQuestions = await _questionRepository.GetAllQuestionsAsync(request);
 
-                if (questions != null)
-                {
-
-                    getQuestionnResponse.Questions = _mapper.Map<List<QuestionDto>>(questions);
-                }
-
-                
+                return ApiResponse<PagedList<QuestionDto>>.SuccessResponse("All Question Fetehced Successfully",pagedQuestions);
             }
             catch (Exception ex)
             {
-                getQuestionnResponse.Success = false;
-                getQuestionnResponse.Message = "Server Error";
+                // Optional: log exception
+                return ApiResponse<PagedList<QuestionDto>>.FailureResponse("Failed to retrieve questions.");
             }
 
-            return getQuestionnResponse;
         }
     }
 }
