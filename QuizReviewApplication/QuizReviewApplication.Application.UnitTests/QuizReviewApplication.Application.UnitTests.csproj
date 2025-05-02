@@ -25,7 +25,7 @@
   <ItemGroup>
     <Folder Include="Common\" />
     <Folder Include="Dtos\" />
-    <Folder Include="Questions\Commands\" />
+    <Folder Include="Features\Questions\Commands\" />
   </ItemGroup>
 
   <ItemGroup>

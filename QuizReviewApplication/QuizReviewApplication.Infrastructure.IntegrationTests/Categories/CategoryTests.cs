@@ -1,5 +1,5 @@
-﻿using QuizReviewApplication.Application.Categories.Commands;
-using QuizReviewApplication.Application.Questions.Commands.CreateQuestion;
+﻿
+using QuizReviewApplication.Application.Features.Categories.Commands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +13,9 @@ namespace QuizReviewApplication.Application.IntegrationTests.Categories
         public CategoryTests(IntegrationTestWebAppFactory factory) : base(factory)
         {
         }
+
+        //createcategrory handler folder
+        // CreateCategoryCommandTest file name
         [Fact]
         public async Task Category_Should_AddNewCategoryToDatabase()
         {
