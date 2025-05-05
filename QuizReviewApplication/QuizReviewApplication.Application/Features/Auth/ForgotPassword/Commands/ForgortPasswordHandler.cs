@@ -22,7 +22,7 @@ namespace QuizReviewApplication.Application.Features.Auth.ForgotPassword.Command
         private readonly IConfiguration _configuration;
         private readonly IEmailService _emailService;
 
-        public ForgortPasswordHandler(UserManager<ApplicationUser> userManager,IUserService userService, IConfiguration configuration,  IEmailService emailService)
+        public ForgortPasswordHandler(IUserService userService, IConfiguration configuration,  IEmailService emailService)
         {
            
             _userService = userService;
@@ -33,9 +33,12 @@ namespace QuizReviewApplication.Application.Features.Auth.ForgotPassword.Command
         {
           
             var user = await _userService.FindByEmailAsync(request.forgotPasswordDto.Email);
-            if (user == null || !(await _userService.IsEmailConfirmedAsync(user)))
-                return ApiResponse<string>.FailureResponse("User not found or email not confirmed.");
-
+            if (user == null  )
+                return ApiResponse<string>.FailureResponse("User not found.");
+            // Check if email is confirmed
+            if (!(await _userService.IsEmailConfirmedAsync(user))){
+                return ApiResponse<string>.FailureResponse("Email not confirmed.");
+            }
             // Generate password reset token
             var token = await _userService.GeneratePasswordResetTokenAsync(user);
             var encodedToken = Convert.ToBase64String(Encoding.UTF8.GetBytes(token));
@@ -51,6 +54,7 @@ namespace QuizReviewApplication.Application.Features.Auth.ForgotPassword.Command
 
             return ApiResponse<string>.SuccessResponse( "Password reset link sent to your email." );
         }
+ 
     }
     
     

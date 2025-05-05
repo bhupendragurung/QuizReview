@@ -33,7 +33,7 @@ namespace QuizReviewApplication.Application.Features.Auth.Login.Commands
             var model = request.LoginDto;
             var user = await _userService.FindByNameAsync(model.Username);
 
-            if (user == null) return ApiResponse<string>.FailureResponse( "Unauthorized");
+            if (user == null) return ApiResponse<string>.FailureResponse( "User not Found");
 
             if (!user.EmailConfirmed) return  ApiResponse<string>.FailureResponse("Email not confirmed");
             if (await _userService.IsLockedOutAsync(user)) return ApiResponse<string>.FailureResponse("Account is temporarily locked");
