@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QuizReviewApplication.Domain.Enum;
+using QuizReviewApplication.Domain.Enum;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,8 +12,9 @@ namespace QuizReviewApplication.Domain.Entities
     {
         public Guid Id { get; set; }
         public string Text { get; set; }=string.Empty;
-        public SkillLevel? skillLevel { get; set; }
-        public Category? category { get; set; }
-        public QuestionLevel? questionLevel { get; set; }
+        public SkillType SkillLevel { get; set; }
+        // Difficulty level change the property name
+        public QuestionType QuestionLevel { get; set; }
+        public IList<QuestionCategory> QuestionCategories { get; set; }
     }
 }

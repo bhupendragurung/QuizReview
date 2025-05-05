@@ -1,0 +1,1028 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\questions\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\questions\\questionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\questions\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\questions\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\repositories\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\queries\\getquestions\\getquestionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\queries\\getquestions\\getquestionshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\queries\\getquestionbyid\\getquestionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\queries\\getquestionbyid\\getquestionbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\commands\\createquestion\\createquestionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\commands\\createquestion\\createquestionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\chatgpt\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\chatgpt\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\answers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\answers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\controllers\\users\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\controllers\\users\\refreshtokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\extensions\\infrastructurediregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\extensions\\infrastructurediregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\extensions\\applicationdiregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\extensions\\applicationdiregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.infrastructure\\services\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E00492-CDA6-4F6E-81F7-A0FF479F558B}|QuizReviewApplication.Infrastructure\\QuizReviewApplication.Infrastructure.csproj|solutionrelative:quizreviewapplication.infrastructure\\services\\signinservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\repositories\\iquestioncategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\repositories\\iquestioncategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\repositories\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\repositories\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\users\\queries\\gettokenquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\users\\queries\\gettokenquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\users\\queries\\gettokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\users\\queries\\gettokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questionanswers\\queries\\getquestionanswer\\getanswerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questionanswers\\queries\\getquestionanswer\\getanswerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questionanswers\\queries\\getquestionanswer\\getanswerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questionanswers\\queries\\getquestionanswer\\getanswerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\categories\\commands\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\categories\\commands\\createcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\queries\\getquestions\\getquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\queries\\getquestions\\getquestionsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\queries\\getquestionbyid\\getquestionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\queries\\getquestionbyid\\getquestionbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questions\\commands\\createquestion\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questions\\commands\\createquestion\\createquestioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\common\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\common\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\questionanswers\\commands\\createquestionanswer\\createquestionanswervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\categories\\commands\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\categories\\commands\\createcategoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\categories\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\categories\\commands\\createcategorycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\helper\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\helper\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\login\\commands\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\login\\commands\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\login\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\login\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91EDDFD-B86D-4FBA-868B-FBE46B2CFD4E}|QuizReviewApplication.Domain\\QuizReviewApplication.Domain.csproj|solutionrelative:quizreviewapplication.domain\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\register\\commands\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\register\\commands\\registerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgortpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgortpasswordhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgotpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\verifyemail\\command\\verifyemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\verifyemail\\command\\verifyemailhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\resetpassword\\command\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\resetpassword\\command\\resetpasswordcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\register\\commands\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\register\\commands\\registervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\helper\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\forgotpassword\\commands\\forgotpasswordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\interfaces\\isigninservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\interfaces\\isigninservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\features\\auth\\login\\commands\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\features\\auth\\login\\commands\\loginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\middleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\extensions\\httpextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\extensions\\httpextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\extensions\\authenticationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\extensions\\authenticationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F32312F4-6FE7-4965-9661-BADE9FA93D79}|QuizReviewApplication.WebApi\\QuizReviewApplication.WebApi.csproj|solutionrelative:quizreviewapplication.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|d:\\learning\\careercoach\\mentor\\project\\quizreview\\quizreviewapplication\\quizreviewapplication.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3C45099-698B-41E5-A9F2-B0ABAFF7C821}|QuizReviewApplication.Application\\QuizReviewApplication.Application.csproj|solutionrelative:quizreviewapplication.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 396,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T14:07:24.808Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:17:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Repositories\\QuestionRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwEMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:13:36.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionsController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:10:23.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Questions\\QuestionController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:08:19.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Users\\AuthController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Users\\AuthController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Users\\AuthController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Users\\AuthController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:47:01.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateQuestionHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionHandler.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwBYAAACrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:45:48.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetQuestionsHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:19:14.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetQuestionByIdHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdHandler.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T00:16:04.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\ChatGpt\\ChatController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\ChatGpt\\ChatController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\ChatGpt\\ChatController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\ChatGpt\\ChatController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:07:46.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AnswerController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Answers\\AnswerController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Answers\\AnswerController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Answers\\AnswerController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Answers\\AnswerController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:03:39.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RefreshTokenController.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Users\\RefreshTokenController.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Controllers\\Users\\RefreshTokenController.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Controllers\\Users\\RefreshTokenController.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Controllers\\Users\\RefreshTokenController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:47:06.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDIRegistration.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Extensions\\ApplicationDIRegistration.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Extensions\\ApplicationDIRegistration.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Extensions\\ApplicationDIRegistration.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Extensions\\ApplicationDIRegistration.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:13:12.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateQuestionAnswerHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerHandler.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:12:33.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T19:44:05.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InfrastructureDIRegistration.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Extensions\\InfrastructureDIRegistration.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Extensions\\InfrastructureDIRegistration.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Extensions\\InfrastructureDIRegistration.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Extensions\\InfrastructureDIRegistration.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAQwC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:14:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Services\\TokenService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\TokenService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Services\\TokenService.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAIAwwBAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:22:01.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Services\\ITokenService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Services\\ITokenService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAawA0AAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T20:21:38.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IQuestionCategoryRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\IQuestionCategoryRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Repositories\\IQuestionCategoryRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\IQuestionCategoryRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Repositories\\IQuestionCategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:45:42.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Repositories\\IQuestionRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\IQuestionRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Repositories\\IQuestionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:45:40.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetTokenQuery.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenQuery.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenQuery.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenQuery.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:32:11.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetTokenHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Users\\Queries\\GetTokenHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:32:10.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignInService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\SignInService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Infrastructure\\Services\\SignInService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Infrastructure\\Services\\SignInService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Infrastructure\\Services\\SignInService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:27:40.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAnswerQuery.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerQuery.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerQuery.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerQuery.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:30:07.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetAnswerHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Queries\\GetQuestionAnswer\\GetAnswerHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwCEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:29:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetQuestionsQuery.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestions\\GetQuestionsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:19:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateCategoryHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:46:03.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetQuestionByIdQuery.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdQuery.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdQuery.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdQuery.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Queries\\GetQuestionById\\GetQuestionByIdQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T09:19:25.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateQuestionCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Questions\\Commands\\CreateQuestion\\CreateQuestionCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:45:01.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Common\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Common\\Mappings\\AutoMapperProfiles.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Common\\Mappings\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Common\\Mappings\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:54:37.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateQuestionAnswerCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T23:04:19.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateQuestionAnswerValidator.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerValidator.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerValidator.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerValidator.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\QuestionAnswers\\Commands\\CreateQuestionAnswer\\CreateQuestionAnswerValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:20:18.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateCategoryValidator.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryValidator.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryValidator.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryValidator.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T23:01:09.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CreateCategoryCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Categories\\Commands\\CreateCategoryCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T20:46:08.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Helper\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Helper\\ValidationBehavior.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Helper\\ValidationBehavior.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Helper\\ValidationBehavior.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwA8AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:29:41.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T22:56:49.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:37:12.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:16:08.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Dtos\\AuthResponseDto.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Dtos\\AuthResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:45:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Dtos\\RefreshTokenRequestDto.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\RefreshTokenRequestDto.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Dtos\\RefreshTokenRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:45:24.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "QuizReviewApplication.Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:20:52.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Domain\\Entities\\ApplicationUser.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Domain\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "QuizReviewApplication.Domain\\Entities\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:57:30.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ForgortPasswordHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgortPasswordHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgortPasswordHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgortPasswordHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgortPasswordHandler.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:24:49.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ForgotPasswordCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:44:13.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "RegisterHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterHandler.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:10:35.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Dtos\\RegisterDto.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Dtos\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:57:10.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "VerifyEmailHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\VerifyEmail\\Command\\VerifyEmailHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\VerifyEmail\\Command\\VerifyEmailHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\VerifyEmail\\Command\\VerifyEmailHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\VerifyEmail\\Command\\VerifyEmailHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:25:14.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ResetPasswordCommand.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ResetPassword\\Command\\ResetPasswordCommand.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\ResetPassword\\Command\\ResetPasswordCommand.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ResetPassword\\Command\\ResetPasswordCommand.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\ResetPassword\\Command\\ResetPasswordCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:16:21.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterValidator.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterValidator.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterValidator.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterValidator.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\Register\\Commands\\RegisterValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:41:15.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Helper\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Helper\\ApiResponse.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Helper\\ApiResponse.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Helper\\ApiResponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAWwBgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T12:14:26.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ForgotPasswordValidator.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordValidator.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordValidator.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordValidator.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\ForgotPassword\\Commands\\ForgotPasswordValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:44:24.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ISignInService.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Interfaces\\ISignInService.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Interfaces\\ISignInService.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Interfaces\\ISignInService.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Interfaces\\ISignInService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:23:56.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LoginValidator.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginValidator.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginValidator.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginValidator.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Features\\Auth\\Login\\Commands\\LoginValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:43:43.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Middleware\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Middleware\\GlobalExceptionHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T20:15:34.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Program.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Program.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswCgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:12:42.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:59:05.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HttpExtension.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Extensions\\HttpExtension.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Extensions\\HttpExtension.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Extensions\\HttpExtension.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Extensions\\HttpExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T10:53:47.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\appsettings.json",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\appsettings.json",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-30T10:44:54.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "AuthenticationServiceExtensions.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Extensions\\AuthenticationServiceExtensions.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.WebApi\\Extensions\\AuthenticationServiceExtensions.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.WebApi\\Extensions\\AuthenticationServiceExtensions.cs",
+              "RelativeToolTip": "QuizReviewApplication.WebApi\\Extensions\\AuthenticationServiceExtensions.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T18:19:19.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Dtos\\LoginDto.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Dtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:44:39.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "QuizReviewApplication.Application\\Dtos\\ForgotPasswordDto.cs",
+              "ToolTip": "D:\\Learning\\CareerCoach\\Mentor\\Project\\QuizReview\\QuizReviewApplication\\QuizReviewApplication.Application\\Dtos\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "QuizReviewApplication.Application\\Dtos\\ForgotPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T20:44:51.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

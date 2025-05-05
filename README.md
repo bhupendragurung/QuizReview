@@ -1,15 +1,56 @@
-# QuizReview
-It is a simple web application where the programmer will practice  the interview question. Users will be able to review, answer and receive feedback on questions from various topics and categories.
+# 📚 Quiz Review Application
 
-# Features 
-Simple User Registration and Login
-Allow users to view all the available questions and the collections of question
-Allow registered users to answer a question with text.
+An enterprise-grade ASP.NET Core Web API application to manage quiz questions, categories, and AI-evaluated student answers using Clean Architecture, MediatR, FluentValidation, and more.
 
-# Requirements
+---
 
-# Technical Specifications:
-Backend: .NET, WEB API
-DATABASE: PostgresSQL
-Frontend: Angular
+## 🚀 Features
 
+- Create, retrieve, and manage **Questions**, **Answers**, and **Categories**
+- AI integration for automatic answer evaluation and feedback
+- Clean Architecture with SOLID principles
+- CQRS with **MediatR**
+- FluentValidation with pipeline behavior
+- Global Exception Handling middleware
+- Unit tests with **xUnit**, **Moq**, and **FluentAssertions**
+
+---
+
+## 🛠️ Tech Stack
+
+- **ASP.NET Core 7**
+- **MediatR**
+- **Entity Framework Core**
+- **FluentValidation**
+- **AutoMapper**
+- **xUnit**, **Moq** (Unit Testing)
+- **OpenAI / AI service** integration
+- Clean Architecture + CQRS pattern
+
+---
+
+## 🗂️ Project Structure
+
+QuizReviewApplication/
+│
+├── Application/
+│ ├── Features/ # CQRS Handlers (Commands & Queries)
+│ ├── Dtos/ # Data Transfer Objects
+│ ├── Repositories/ # Interface definitions
+│ ├── Services/ # AI evaluation logic
+│ └── Helper/ # ApiResponse, ValidationBehavior
+│
+├── Domain/
+│ ├── Entities/ # Core models (Question, Answer, Category)
+│ └── Enum/ # Enums for Skill & Question level
+│
+├── Infrastructure/
+│ └── Repositories/ # EF Core Implementations
+│
+├── WebApi/
+│ ├── Controllers/ # API Controllers
+│ ├── Middleware/ # Global Exception Handler
+│ └── Program.cs # Entry point
+│
+├── Tests/
+│ └── Handlers/ # Unit Tests for CQRS handlers
