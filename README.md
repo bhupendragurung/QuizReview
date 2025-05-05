@@ -27,30 +27,6 @@ An enterprise-grade ASP.NET Core Web API application to manage quiz questions, c
 - **OpenAI / AI service** integration
 - Clean Architecture + CQRS pattern
 
----
 
-## 🗂️ Project Structure
 
-QuizReviewApplication/
-│
-├── Application/
-│ ├── Features/ # CQRS Handlers (Commands & Queries)
-│ ├── Dtos/ # Data Transfer Objects
-│ ├── Repositories/ # Interface definitions
-│ ├── Services/ # AI evaluation logic
-│ └── Helper/ # ApiResponse, ValidationBehavior
-│
-├── Domain/
-│ ├── Entities/ # Core models (Question, Answer, Category)
-│ └── Enum/ # Enums for Skill & Question level
-│
-├── Infrastructure/
-│ └── Repositories/ # EF Core Implementations
-│
-├── WebApi/
-│ ├── Controllers/ # API Controllers
-│ ├── Middleware/ # Global Exception Handler
-│ └── Program.cs # Entry point
-│
-├── Tests/
-│ └── Handlers/ # Unit Tests for CQRS handlers
+
